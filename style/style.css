@@ -1,0 +1,33 @@
+@import "./colors.css";
+@font-face {
+  font-family: WorkSans-Regular;
+  src: url("../assets/fonts/static/WorkSans-Regular.ttf");
+}
+@font-face {
+  font-family: WorkSans-Bold;
+  src: url("../assets/fonts/static/WorkSans-Bold.ttf");
+}
+@font-face {
+  font-family: WorkSans-SemiBold;
+  src: url("../assets/fonts/static/WorkSans-SemiBold.ttf");
+}
+@media (max-width: 1439px) {
+  body {
+    font-family: WorkSans-Regular;
+    background-image: url("../assets/images/background-pattern-mobile.svg");
+    background-repeat: no-repeat;
+  }
+  body h1 {
+    font-family: WorkSans-Bold;
+  }
+  body li {
+    list-style-type: none;
+  }
+  body .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  body .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}/*# sourceMappingURL=style.css.map */
